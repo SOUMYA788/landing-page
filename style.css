@@ -300,8 +300,7 @@ footer.footer div {
 
 }
 
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px){
 	#navToggleBtn {
 		display: flex;
 	}
@@ -331,48 +330,7 @@ footer.footer div {
 		font-weight: 700;
 	}
 
-	/* --------BANNER-------- */
-
-	.banner {
-		height: 280px;
-	}
-
-	.bannerText {
-		width: 70%;
-	}
-
-	.bannerText a {
-		padding: 5px 10px;
-	}
-
-	.bannerText p.bannerP1 {
-		font-size: 1.3em;
-	}
-
-	.banner p.bannerP2 {
-		margin: 23px 0 35px;
-	}
-
-
-
-	/* -------HOME BODY------- */
-
-	.rowTextDiv {
-		width: 55vw;
-	}
-
-	.rowImgDiv {
-		width: 20vw;
-		height: 20vw;
-	}
-
-	/* --------FOOTER-------- */
-	footer.footer {
-		font-size: 0.7rem;
-	}
-
 	/* -----NAV HELPER CLASS----- */
-
 
 	.nbr#navToggleBtn {
 		position: relative;
@@ -400,7 +358,48 @@ footer.footer div {
 		opacity: 0;
 		display: none;
 	}
+}
 
+@media screen and (max-width: 425px) {
+	/* --------BANNER-------- */
+
+	.banner {
+		height: 280px;
+	}
+
+	.bannerText {
+		width: 70%;
+	}
+
+	.bannerText a {
+		padding: 5px 10px;
+	}
+
+	.bannerText p.bannerP1 {
+		font-size: 1.3em;
+	}
+
+	.banner p.bannerP2 {
+		margin: 23px 0 35px;
+	}
+
+	/* -------HOME BODY------- */
+
+	.rowTextDiv {
+		width: 55vw;
+	}
+
+	.rowImgDiv {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	/* --------FOOTER-------- */
+	footer.footer {
+		font-size: 0.7rem;
+	}
+
+	
 }
 
 @media screen and (max-width: 250px) {
