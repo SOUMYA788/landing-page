@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+	<title>LANDING PAGE</title>
+</head>
+
+<body>
+	<section id="homeSection" class="mainContainer">
+
+		<nav id="navBar">
+			<div id="navSetOne">
+				<h3><a href="./index.html"> website.com</a></h3>
+
+				<ul id="navUl" class='sideNavUl'>
+					<li class="navLi"><a href="./">HOME</a></li>
+					<li class="navLi"><a href="./services">SERVICES</a></li>
+					<li class="navLi"><a href="./about">ABOUT</a></li>
+					<li class="navLi"><a href="./contact">CONTACT</a></li>
+				</ul>
+			</div>
+
+			<div id="navToggleBtn" onclick="event.stopPropagation(); navBtnClick()">
+				<span class="navSpan"></span>
+				<span class="navSpan"></span>
+				<span class="navSpan"></span>
+			</div>
+
+		</nav>
+
+		<div class="banner">
+
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img class="bannerImg"
+							src="https://www.netguru.com/hs-fs/hubfs/_N19%20Modules/Photos/Office%20Photos%20HD/Netguru-Biuro-2018-5353.jpg?width=1150&height=768&name=Netguru-Biuro-2018-5353.jpg"
+							alt="banner 1">
+					</div>
+
+					<div class="swiper-slide">
+						<img class="bannerImg"
+							src="https://www.netguru.com/hs-fs/hubfs/DSC_8204%20_HD.jpg?width=1150&height=768&name=DSC_8204%20_HD.jpg"
+							alt="banner 1">
+					</div>
+
+					<div class="swiper-slide">
+						<img class="bannerImg"
+							src="https://www.netguru.com/hs-fs/hubfs/13(1)%20(1).png?width=1280&height=640&name=13(1)%20(1).png"
+							alt="banner 1">
+					</div>
+				</div>
+			</div>
+
+			<div class="bannerText">
+				<p class="bannerP1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore aliquid optio quis
+					enim magnam nisi amet repudiandae est saepe libero velit corrupti facilis facere repellendus quod,
+					harum
+					ducimus, odit labore!
+				</p>
+
+				<p class="bannerP2"> <a href="#">Lets Start</a> </p>
+			</div>
+		</div>
+
+		<div class="homeBody">
+			<div class="row row1">
+				<div class="rowImgDiv">
+					<img src="https://www.netguru.com/hs-fs/hubfs/13(1)%20(1).png?width=1280&height=640&name=13(1)%20(1).png"
+						alt="img" />
+				</div>
+
+				<div class="rowTextDiv">
+					<h4>Headding 1</h4>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, harum id omnis laborum illo
+						neque
+						inventore, possimus voluptas animi ad eos dignissimos iusto voluptate sed. Inventore laboriosam
+						esse adipisci ipsum?
+					</p>
+				</div>
+			</div>
+
+			<div class="row row2">
+				<div class="rowTextDiv">
+					<h4>Headding 2</h4>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, harum id omnis laborum illo neque
+						inventore, possimus voluptas animi ad eos dignissimos iusto voluptate sed. Inventore laboriosam
+						esse adipisci ipsum?</p>
+				</div>
+
+				<div class="rowImgDiv">
+					<img src="https://www.netguru.com/hs-fs/hubfs/13(1)%20(1).png?width=1280&height=640&name=13(1)%20(1).png"
+						alt="img" />
+				</div>
+			</div>
+
+			<div class="row row3">
+				<div class="rowImgDiv">
+					<img src="https://www.netguru.com/hs-fs/hubfs/13(1)%20(1).png?width=1280&height=640&name=13(1)%20(1).png"
+						alt="img" />
+				</div>
+
+				<div class="rowTextDiv">
+					<h4>Headding 3</h4>
+
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, harum id omnis laborum illo neque
+						inventore, possimus voluptas animi ad eos dignissimos iusto voluptate sed. Inventore laboriosam
+						esse
+						adipisci ipsum?</p>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+
+			<div class="footer_col">
+				<h3>ABOUT</h3>
+				<p><a href="#">Home</a></p>
+				<p><a href="#">Service</a></p>
+				<p><a href="#">About</a></p>
+				<p><a href="#">Contact</a></p>
+				<p><a href="#">Careers</a></p>
+			</div>
+
+			<div class="footer_col">
+				<h3>SOCIAL</h3>
+				<p><a href="#">Facebook</a></p>
+				<p><a href="#">Twitter</a></p>
+				<p><a href="#">Youtube</a></p>
+				<p><a href="#">Linkdin</a></p>
+			</div>
+
+			<div>
+				<h3>OFFICIAL ADDRESS</h3>
+				<p>website Private Limited,</p>
+				<p>Buildings Alyssa, Begonia &amp;</p>
+				<p>Clove Embassy Tech Village,</p>
+				<p>Outer Ring Road, Devarabeesanahalli Village,</p>
+				<p>Karnataka, India</p>
+			</div>
+
+		</footer>
+
+	</section>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+		});
+	</script>
+
+	<script>
+		let navBtnClick = () => {
+			let navToggleBtn = document.getElementById("navToggleBtn")
+			
+			let navSpan = document.getElementsByClassName("navSpan")
+			let mainNavUl = document.getElementById("navUl")
+			navToggleBtn.classList.toggle("nbr")
+			for (let i = 0; i < navSpan.length; i++) {
+				const dash = navSpan[i];
+				dash.classList.toggle("navDash")
+			}
+			mainNavUl.classList.toggle("sideNavUl")
+		}
+	</script>
+</body>
+
+</html>
